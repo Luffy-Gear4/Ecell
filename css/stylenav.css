@@ -21,6 +21,7 @@ nav{
     background-image: linear-gradient(to right, #feb47b   0%,  #ff7e5f 100%);
     text-shadow: 0 0 .75px #000000;
     box-shadow: 0 0 2px black;
+    text-transform: uppercase;
 }
 .dark{
 	background-color:black;
