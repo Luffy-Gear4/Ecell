@@ -3,7 +3,7 @@
 <head>
 	<title>Hello Consultancy</title>
 	<link rel="stylesheet" type="text/css" href="css/stylenav.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 	
 </head>
 <script type="text/javascript" src="js/javascript.js"></script>
@@ -15,55 +15,48 @@
 		<span><a href="index.html" class="navFunctions activePage" >Home</a></span>
 	</nav>
 	<header>
-	<div id="div1" >
-		<span class="inviSpan"></span>
-		<span class="span1" id="spaning">The Best Solution For Your Business</span><br>
-		<span class="span1" id="spaning2">We help you maximise performance and build a healthy organisation</span>
-		<button class="headerButton">Learn More</button>
+	<div id="divHeader" >
+		<span class="spanInvisible"></span>
+		<span class="spanHeader" id="spanHeading1">The Best Solution For Your Business</span><br>
+		<span class="spanHeader" id="spanHeading2">We help you maximise performance and build a healthy organisation</span>
+		<button class="buttonHeaderFooter">Learn More</button>
 	</div>
 	</header>
-	<!-- <div class="blackness" id="divContainer"> -->
-<div id="div2">
+	
+<div id="divToggle">
 	<input type="checkbox" class="checkbox" id="chk" >
 	<label class="label" for="chk">
 		<div class="ball"></div>
 	</label>
 </div>
-<div id="div3">Our Services</div>
-<div class="flexbox">
+<div id="divHeading">Our Services</div>
+<div class="flexboxContainer">
 
-		<div class="container">
-			<div><img src="images/design.png" style="width:100%; 
-                height:320px; 
-                object-fit:cover; "></div>
-             <span>Design</span>
+		<div class="innerContainer">
+			<div><img src="images/design.png" class="innerContainerImg"></div>
+             <span class="innerContainerHeading">Design</span>
 			<span>Deliver the best user experience with our carefully designed responsive websites and applications!</span><br>
-			<button>See portfolio</button><br>
+			<button class="innerContainerButton">See portfolio ></button><br>
 		</div>
-		<div class="container">
-			<div><img src="images/dev4.png" style="width:100%; 
-                height:320px; 
-                object-fit:cover; "></div>
-                <span>Development</span>
+		<div class="innerContainer">
+			<div><img src="images/dev4.png" class="innerContainerImg"></div>
+                <span class="innerContainerHeading">Development</span>
 			<span>You need software that works on every device.Leverage the latest technologies and the most powerful tools!</span><br>
-			<button>See projects ></button><br>
+			<button class="innerContainerButton">See projects ></button><br>
 		</div>
-		<div class="container">
-			<div><img src="images/ana2.png" style="width:100%; 
-                height:320px;  
-                object-fit:cover; "></div>
-                <span>Analytics</span>
+		<div class="innerContainer">
+			<div><img src="images/ana2.png" class="innerContainerImg"></div>
+                <span class="innerContainerHeading">Analytics</span>
 			<span>Consult our experts to set up proper goals and find the best stack for your next application!</span><br>
-			<button>See testimonials </button><br>
+			<button class="innerContainerButton">See testimonials ></button><br>
 		</div>
 	</div>
 	</div> 
-	<!-- </div> -->
-	<footer class="footer1">
-		<div id="div4">Get in touch with us today!</div>
-		<div id="div5">Send a message and we will get back to you as soon as poosible.</div>
-		<button id="sd1" class="headerButton">Contact us!</button>
+	<footer class="footerContact">
+		<div id="footerHeading1">Get in touch with us today!</div>
+		<div id="footerHeading2">Send a message and we will get back to you as soon as poosible.</div>
+		<button class="buttonHeaderFooter">Contact us!</button>
 	</footer>
-	<footer id="footer2">Copyright © Hello Consultancy 2019</footer>
+	<footer id="footerCopyright">Copyright © Hello Consultancy 2019</footer>
 </body>
 </html>

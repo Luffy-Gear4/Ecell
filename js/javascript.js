@@ -5,4 +5,5 @@ window.onload=function(){
     chk.addEventListener('change', () => {
 	document.body.classList.toggle('dark');
 	});
+	
 }
