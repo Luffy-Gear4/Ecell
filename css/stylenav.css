@@ -22,6 +22,7 @@ nav{
     text-shadow: 0 0 .75px #000000;
     box-shadow: 0 0 2px black;
     text-transform: uppercase;
+    position: fixed;
 }
 .dark{
 	background-color:black;
